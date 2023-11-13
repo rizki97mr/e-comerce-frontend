@@ -1,20 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './page/Home.jsx'
 import DetailProduct from './page/DetailProduct.jsx'
 
 const router = createBrowserRouter([
-  // {
-  //   path: "/login",
-  //   element: <LoginPage />
-  // },
-  // {
-  //   path: "/register",
-  //   element: <RegisterPage />
-  // },
   {
     path: "/",
     element: <Home />,
